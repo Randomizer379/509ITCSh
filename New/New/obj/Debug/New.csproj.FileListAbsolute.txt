@@ -1,0 +1,10 @@
+C:\Users\Owner\source\repos\New\New\bin\Debug\New.exe.config
+C:\Users\Owner\source\repos\New\New\bin\Debug\New.exe
+C:\Users\Owner\source\repos\New\New\bin\Debug\New.pdb
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.CreateType.resources
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.Properties.Resources.resources
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.exe
+C:\Users\Owner\source\repos\New\New\obj\Debug\New.pdb
