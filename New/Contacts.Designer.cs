@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.contactTable = new System.Windows.Forms.DataGridView();
             this.createBut = new System.Windows.Forms.Button();
             this.updateBut = new System.Windows.Forms.Button();
@@ -62,35 +62,35 @@
             // 
             // contactTable
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.contactTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.contactTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.contactTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.contactTable.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.contactTable.DefaultCellStyle = dataGridViewCellStyle5;
             this.contactTable.Location = new System.Drawing.Point(12, 39);
             this.contactTable.MultiSelect = false;
             this.contactTable.Name = "contactTable";
             this.contactTable.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.contactTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.contactTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.contactTable.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.contactTable.Size = new System.Drawing.Size(776, 266);
             this.contactTable.TabIndex = 0;
@@ -98,7 +98,7 @@
             // 
             // createBut
             // 
-            this.createBut.Location = new System.Drawing.Point(707, 324);
+            this.createBut.Location = new System.Drawing.Point(707, 375);
             this.createBut.Name = "createBut";
             this.createBut.Size = new System.Drawing.Size(81, 30);
             this.createBut.TabIndex = 1;
@@ -108,7 +108,7 @@
             // 
             // updateBut
             // 
-            this.updateBut.Location = new System.Drawing.Point(707, 360);
+            this.updateBut.Location = new System.Drawing.Point(707, 411);
             this.updateBut.Name = "updateBut";
             this.updateBut.Size = new System.Drawing.Size(81, 30);
             this.updateBut.TabIndex = 2;
@@ -118,7 +118,7 @@
             // 
             // deleteBut
             // 
-            this.deleteBut.Location = new System.Drawing.Point(707, 396);
+            this.deleteBut.Location = new System.Drawing.Point(707, 447);
             this.deleteBut.Name = "deleteBut";
             this.deleteBut.Size = new System.Drawing.Size(81, 30);
             this.deleteBut.TabIndex = 3;
@@ -128,42 +128,42 @@
             // 
             // conFName
             // 
-            this.conFName.Location = new System.Drawing.Point(161, 327);
+            this.conFName.Location = new System.Drawing.Point(12, 327);
             this.conFName.Name = "conFName";
             this.conFName.Size = new System.Drawing.Size(161, 20);
             this.conFName.TabIndex = 4;
             // 
             // conLName
             // 
-            this.conLName.Location = new System.Drawing.Point(353, 327);
+            this.conLName.Location = new System.Drawing.Point(204, 327);
             this.conLName.Name = "conLName";
             this.conLName.Size = new System.Drawing.Size(161, 20);
             this.conLName.TabIndex = 5;
             // 
             // conTelNum
             // 
-            this.conTelNum.Location = new System.Drawing.Point(526, 385);
+            this.conTelNum.Location = new System.Drawing.Point(204, 405);
             this.conTelNum.Name = "conTelNum";
             this.conTelNum.Size = new System.Drawing.Size(161, 20);
             this.conTelNum.TabIndex = 6;
             // 
             // conAddr
             // 
-            this.conAddr.Location = new System.Drawing.Point(161, 436);
+            this.conAddr.Location = new System.Drawing.Point(12, 405);
             this.conAddr.Name = "conAddr";
             this.conAddr.Size = new System.Drawing.Size(161, 20);
             this.conAddr.TabIndex = 7;
             // 
             // conEmail
             // 
-            this.conEmail.Location = new System.Drawing.Point(161, 385);
+            this.conEmail.Location = new System.Drawing.Point(12, 366);
             this.conEmail.Name = "conEmail";
             this.conEmail.Size = new System.Drawing.Size(245, 20);
             this.conEmail.TabIndex = 9;
             // 
             // conCity
             // 
-            this.conCity.Location = new System.Drawing.Point(391, 436);
+            this.conCity.Location = new System.Drawing.Point(12, 444);
             this.conCity.Name = "conCity";
             this.conCity.Size = new System.Drawing.Size(161, 20);
             this.conCity.TabIndex = 10;
@@ -178,7 +178,7 @@
             this.conType.Items.AddRange(new object[] {
             "Business",
             "Personal"});
-            this.conType.Location = new System.Drawing.Point(633, 503);
+            this.conType.Location = new System.Drawing.Point(204, 480);
             this.conType.Name = "conType";
             this.conType.Size = new System.Drawing.Size(155, 21);
             this.conType.TabIndex = 11;
@@ -186,7 +186,7 @@
             // 
             // conPostCode
             // 
-            this.conPostCode.Location = new System.Drawing.Point(391, 492);
+            this.conPostCode.Location = new System.Drawing.Point(12, 483);
             this.conPostCode.Name = "conPostCode";
             this.conPostCode.Size = new System.Drawing.Size(161, 20);
             this.conPostCode.TabIndex = 8;
@@ -194,7 +194,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(158, 311);
+            this.label1.Location = new System.Drawing.Point(12, 311);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 12;
@@ -203,7 +203,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(350, 311);
+            this.label2.Location = new System.Drawing.Point(201, 311);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 13);
             this.label2.TabIndex = 13;
@@ -212,7 +212,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(161, 369);
+            this.label3.Location = new System.Drawing.Point(12, 350);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 14;
@@ -221,7 +221,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(523, 369);
+            this.label4.Location = new System.Drawing.Point(201, 389);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(96, 13);
             this.label4.TabIndex = 15;
@@ -230,7 +230,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(158, 420);
+            this.label5.Location = new System.Drawing.Point(12, 389);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 13);
             this.label5.TabIndex = 16;
@@ -239,7 +239,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(388, 420);
+            this.label6.Location = new System.Drawing.Point(12, 428);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 13);
             this.label6.TabIndex = 17;
@@ -248,7 +248,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(388, 476);
+            this.label7.Location = new System.Drawing.Point(12, 467);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(52, 13);
             this.label7.TabIndex = 18;
@@ -257,7 +257,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(630, 487);
+            this.label8.Location = new System.Drawing.Point(201, 464);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(67, 13);
             this.label8.TabIndex = 19;
@@ -312,7 +312,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 487);
+            this.label10.Location = new System.Drawing.Point(478, 311);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(58, 13);
             this.label10.TabIndex = 24;
@@ -320,7 +320,7 @@
             // 
             // conID
             // 
-            this.conID.Location = new System.Drawing.Point(12, 503);
+            this.conID.Location = new System.Drawing.Point(478, 327);
             this.conID.Name = "conID";
             this.conID.ReadOnly = true;
             this.conID.Size = new System.Drawing.Size(310, 20);
@@ -358,7 +358,7 @@
             this.Controls.Add(this.createBut);
             this.Controls.Add(this.contactTable);
             this.Name = "Create_contact";
-            this.Text = "6-";
+            this.Text = "Contacts";
             this.Load += new System.EventHandler(this.Create_contact_Load);
             ((System.ComponentModel.ISupportInitialize)(this.contactTable)).EndInit();
             this.ResumeLayout(false);
