@@ -37,6 +37,7 @@ namespace New
 
         private void CreateBut_Click(object sender, EventArgs e)
         {
+            //Creates contact within database
             if (mysqlConn.connOpen() == true)
             {
                 mysqlConn.createContact(conFName.Text, conLName.Text, conEmail.Text, conTelNum.Text, conAddr.Text, conCity.Text, conPostCode.Text, conType.Text) ;
@@ -47,6 +48,7 @@ namespace New
 
         private void ContactTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //displays content within database inside table
             if (contactTable.SelectedRows.Count > 0)
             {
                 conID.Text = contactTable.SelectedRows[0].Cells[0].Value.ToString();
@@ -65,6 +67,7 @@ namespace New
         {
             if (DialogResult.Yes == MessageBox.Show("Are you sure you want to delete this record ?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning))
             {
+                //Deletes selected entry within database
                 if (mysqlConn.connOpen() == true)
                 {
                     mysqlConn.deleteContact(conID.Text);
@@ -76,6 +79,7 @@ namespace New
 
         private void UpdateBut_Click(object sender, EventArgs e)
         {
+            //updates selected contact based on user inputs
             if (mysqlConn.connOpen() == true)
             {
                 mysqlConn.updateContact(conID.Text, conFName.Text, conLName.Text, conEmail.Text, conTelNum.Text, conAddr.Text, conCity.Text, conPostCode.Text, conType.Text);
@@ -85,7 +89,8 @@ namespace New
         }
 
         private void PerSearch_CheckedChanged(object sender, EventArgs e)
-        {
+        { 
+            //Shows only with the type "Personal" within database
             if (mysqlConn.connOpen() == true)
             {
                 contactTable.DataSource = mysqlConn.qry("SELECT * FROM `contacts` WHERE conType='Personal'").Tables[0];
@@ -95,6 +100,7 @@ namespace New
 
         private void BusSearch_CheckedChanged(object sender, EventArgs e)
         {
+            //Shows only with the type "Business" within database
             if (mysqlConn.connOpen() == true)
             {
                 contactTable.DataSource = mysqlConn.qry("SELECT * FROM `contacts` WHERE conType='Business'").Tables[0];
@@ -104,6 +110,7 @@ namespace New
 
         private void AllSearch_CheckedChanged(object sender, EventArgs e)
         {
+            //Shows all contacts within database
             if (mysqlConn.connOpen() == true)
             {
                 contactTable.DataSource = mysqlConn.qry("SELECT * FROM `contacts`").Tables[0];
