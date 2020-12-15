@@ -12,6 +12,7 @@ namespace New
     {
         public void createContact(string conFName, string conLName, string conEmail, string conTelNum, string conAddress, string conCity, string conPostCode, string conType)
         {
+            //Creates contact within database table
             MySqlCommand comm = conn.CreateCommand();
             comm.CommandText = "INSERT INTO `contacts` (`conID`, `conFName`, `conLName`, `conEmail`, `conTelNum`, `conAddress`, `conCity`, `conPostCode`, `conType`) VALUES (NULL,@conFName, @conLName, @conEmail, @conTelNum, @conAddress, @conCity, @conPostCode, @conType);";
             comm.Parameters.AddWithValue("@conFName", conFName);
@@ -28,7 +29,8 @@ namespace New
 
 
         public void updateContact(string conID, string conFName, string conLName, string conEmail, string conTelNum, string conAddress, string conCity, string conPostCode, string conType)
-        {
+        {            
+            //Updates contact within database table
             MySqlCommand comm = conn.CreateCommand();
             comm.CommandText = "UPDATE `contacts` SET `conFName`=@conFName,`conLName`=@conLName,`conEmail`=@conEmail, `conTelNum`=@conTelNum, `conAddress`=@conAddress, `conCity`=@conCity, `conPostCode`=@conPostCode, `conType`=@conType WHERE conID=@ConID";
             comm.Parameters.AddWithValue("@conID", conID);
@@ -45,7 +47,8 @@ namespace New
         }
 
         public void deleteContact(string conID)
-        {
+        {            
+            //Deletes contact within database table
             MySqlCommand comm = conn.CreateCommand();
             comm.CommandText = "DELETE FROM `contacts` WHERE conID = @conID";
             comm.Parameters.AddWithValue("@conID", conID);
